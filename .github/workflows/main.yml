@@ -1,0 +1,12 @@
+           - name: Git Sync Mirror
+  # You may pin to the exact commit or the version.
+  # uses: BRAVO68WEB/gitlab-sync-action@50e2011928b31566ed9813215c6bfc12d47118af
+  uses: BRAVO68WEB/gitlab-sync-action@v1
+  with:
+    # SSH private key for ssh connection to the target repository
+    ssh_private_key: # optional
+    # Target url
+    target_repo_url: 
+    # Username for ssh connection
+    ssh_username: # optional, default is git
+          
